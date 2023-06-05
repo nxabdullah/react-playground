@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+## Phonebook App - with Redux Toolkit and Flowbite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple CRUD application that allows you to store your friends' phone numbers. 
 
-## Available Scripts
+<img width="385" alt="Screenshot 2023-06-04 at 9 34 51 PM" src="https://github.com/nxabdullah/react-playground/assets/90593598/4965e4b8-ea05-4736-9001-524fd11e27e5">
 
-In the project directory, you can run:
 
-### `npm start`
+### Purpose
+The purpose for building this simple application was to get a hang of how  [Redux Toolkit](https://redux-toolkit.js.org/) and [Redux](https://redux.js.org/) works. Additionally, I was able to play around with the [Flowbite](https://flowbite.com/) which is a component library built on top of [TailwindCSS](https://tailwindcss.com/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My goal is that anyone reading through through this project will be able to get a high level overview of how Redux Toolkit works. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Note: This is a really simple application and it does not really make sense to use Redux for an application of such small scale (check out You '[When should I use Redux?](https://redux.js.org/faq/general#when-should-i-use-redux)' from the Redux Docs if interested in learning more). You can easily use `useContext` and `useReducer` to achieve the same state management as I have here. However, this still demonstrates how react toolkit works pretty well (in my opinion).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
